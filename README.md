@@ -12,19 +12,19 @@ bundler
 Installation: 
 -------------
 ### Install:  
-gem install bundler
-git clone https://github.com/rashidkpc/snmp2graphite.git /opt/snmp2graphite  
-cd /opt/snmp2graphite  
-bundle install  
+    gem install bundler  
+    git clone https://github.com/rashidkpc/snmp2graphite.git /opt/snmp2graphite  
+    cd /opt/snmp2graphite  
+    bundle install  
 
 ### Configure:  
-Set the location of your config.rb in on the first  
-line of /opt/snmp2graphite/snmp2graphite.rb:  
-load '/opt/snmp2graphite/config.rb'  
+Set the location of your config.rb in on the first line of 
+/opt/snmp2graphite/snmp2graphite.rb:  
+    load '/opt/snmp2graphite/config.rb'  
 
 #### Set your Graphite server and port in config.rb:  
-GRAPHITE_HOST = 'graphite.example.com'  
-GRAPHITE_PORT = 2003  
+    GRAPHITE_HOST = 'graphite.example.com'  
+    GRAPHITE_PORT = 2003  
 
 #### Add some things to monitor and ship:  
     METRICS   = {  
@@ -35,4 +35,4 @@ GRAPHITE_PORT = 2003
 
 ### Run:  
 This will invoke snmp2graphite.rb and put it into the background.  
-ruby /opt/snmp2graphite/daemon.rb start
+    ruby /opt/snmp2graphite/daemon.rb start
