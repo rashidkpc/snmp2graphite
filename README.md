@@ -20,6 +20,7 @@ Installation:
 ### Configure:  
 Set the location of your config.rb in on the first line of 
 /opt/snmp2graphite/snmp2graphite.rb:  
+
     load '/opt/snmp2graphite/config.rb'  
 
 #### Set your Graphite server and port in config.rb:  
@@ -35,4 +36,5 @@ Set the location of your config.rb in on the first line of
 
 ### Run:  
 This will invoke snmp2graphite.rb and put it into the background.  
+
     ruby /opt/snmp2graphite/daemon.rb start
