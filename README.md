@@ -12,6 +12,7 @@ bundler
 Installation: 
 -------------
 ### Install:  
+gem install bundler
 git clone https://github.com/rashidkpc/snmp2graphite.git /opt/snmp2graphite  
 cd /opt/snmp2graphite  
 bundle install  
