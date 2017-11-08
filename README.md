@@ -1,6 +1,8 @@
 Snmp2Graphite
 =============
 
+#### This probably still works, but I can't suggest you use it as I don't use it anymore, thus I don't update it.
+
 Snmp2Graphite is a very (~45 lines) simple ruby daemon for shipping snmp 
 metrics to graphite  
 
